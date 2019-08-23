@@ -1,35 +1,30 @@
 body {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url("https://i.imgur.com/Isu4DMl.jpg");
   background-position: center;
   background-size: cover;
-  align-items: center;
+  margin: 100px auto;
 }
 
-
-
 .counter {
-  height: 150px;
-  width: 300px;
-  background-color: teal;
+  background-color: rgb(18, 70, 70);
   color: lavender;
   border: 10px solid lavender;
-  justify-content: center;
   text-align: center;
-  margin-top: 100px;
   padding: 20px;
 }
 
 button {
-  height: 30px;
-  width: 100px;
+  margin: 10px;
   font-size: 16px;
-  color: lavender;
+  color: rgb(18, 70, 70);
+  padding: 8px; 
   background-color: darkgrey;
 }
 
 button:hover {
-  color: darkgrey;
+  color: teal;
   background-color: lavender;
 }
